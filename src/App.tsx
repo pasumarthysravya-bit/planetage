@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { planets } from './data/planets';
 import { calculatePlanetAge, calculatePlanetWeight, lbsToKg } from './utils/calculations';
 import PlanetNavbar from './components/PlanetNavbar';
